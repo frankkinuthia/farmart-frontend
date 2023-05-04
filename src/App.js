@@ -192,7 +192,7 @@ class App extends Component {
           <Route exact path='/signin' component={props => <Signin {...props} signin={signin}/>} />
           <Route exact path='/signup' component={props => <Signup {...props} signup={signup}/>} />
           <Route 
-            exact path='/peep-profile' 
+            exact path='/client-profile' 
             component={props => <CustomerProfile {...props} 
             current_user={current_user}
             customerBasket={customerBasket}
