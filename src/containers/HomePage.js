@@ -26,7 +26,7 @@ class HomePage extends Component {
                         <h2 className="mb-5 font-weight-bold">How it works?</h2>
                         <div className="row d-flex justify-content-center mb-4">
                             <div className="col-md-8">
-                                <p className='grey-text'>FARMART is a online farmer's market. As a farmer you can sell your products. As a client, you have access to artisanal and fresh produces online. Let's dive in.  </p>
+                                <p className='grey-text'>FARMART is a online farmer's market. As a farmer you can sell your products. As a peep, you have access to artisanal and fresh produces online. Let's dive in.  </p>
                             </div>
                         </div>
                         <div className="row">

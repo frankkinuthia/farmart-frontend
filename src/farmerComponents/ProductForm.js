@@ -71,7 +71,6 @@ class ProductForm extends Component {
                         placeholder="500g? 4 pieces? 1 bunch?" 
                     />
                     <input
-                        type='file'
                         name='url_img' 
                         onChange={this.handleChange} 
                         value={url_img} 
@@ -90,9 +89,9 @@ class ProductForm extends Component {
                     <div>
                         <select className="form-control mb-4" id='select-product-category' onChange={this.handleCategory} value={this.state.value} >
                             <option value=''> -- Select a category -- </option>
-                            <option value="Vegetable">Farm Products</option>
-                            <option value="Fruit">Animals</option>
-                            <option value="Bakery">Lands</option>
+                            <option value="Farm Products">Farm Products</option>
+                            <option value="Animal Products">Animal Products</option>
+                            <option value="Lands for Lease">Lands for Lease</option>
                            
                         </select>
                     </div>
